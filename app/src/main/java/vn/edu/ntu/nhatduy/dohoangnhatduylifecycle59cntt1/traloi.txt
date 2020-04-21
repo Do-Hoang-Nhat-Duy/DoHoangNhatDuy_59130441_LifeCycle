@@ -1,0 +1,28 @@
+Câu 4:
+*Thứ tự vòng đời:
+- Khi ứng dụng khởi động và chạy:
+	1. onCreate Called.
+	2. onStart Called.
+	3. onResume Called.
+- Khi bấm nút Back:
+	4. onPause Called.
+	5. onStop Called.
+	6. onDestroy Called.
+- Khi mở lại ứng dụng:
+	7. onCreate Called.
+	8. onStart Called.
+	9. onResume Called.
+Câu 5:
+*Thu tự vòng đời:
+- Khi ứng dụng khởi động và chạy:
+	1. onCreate Called.
+	2. onStart Called.
+	3. onResume Called.
+- Khi bấm nút Home:
+	4. onPause Called.
+	5. onStop Called.
+- Khi mở lại ứng dụng:
+	6. onRestart Called.
+	7. onStart Called.
+	8. onResume Called.
+Câu 6:
